@@ -16,3 +16,6 @@ Opret en personlig access token med notifications, se guide til oprette en perso
 
 Gem din token i følgende fil `$env:userprofile\github_token.txt`.
 
+## Links 
+
+https://mdgrs.hashnode.dev/taskbar-toolmaking-in-powershell
