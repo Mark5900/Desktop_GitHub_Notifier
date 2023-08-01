@@ -1,9 +1,8 @@
 $pollInterval = 60
 $lastPollDate = [DateTime]::MinValue
-$githubToken = Get-Content "$env:userprofile\github_token.txt" | ConvertTo-SecureString -AsPlainText | ConvertFrom-SecureString -AsPlainText
-$githubIcon = 'C:\Users\itcemara\github-icon.png'
+$githubToken = Get-Content 'C:\PowerShell\GitHub_Notifier\github_token.txt'
 
-$ti = New-TaskbarItem -Title 'Github Notifier' -IconResourcePath $githubIcon -OnClicked {
+$ti = New-TaskbarItem -Title 'Github Notifier' -OnClicked {
     & explorer 'https://github.com/notifications'
 }
 
