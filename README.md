@@ -2,6 +2,8 @@
 
 Opret en taskbar icon som viser dig antallet af notifikationer i GitHub og hvis trykker på ikonet åbner det GitHub i din browser.
 
+![GitHub Notifier](Screenshot.png)
+
 ## Installation
 
 Du skal installere modulet `PoshTaskbarItem`
