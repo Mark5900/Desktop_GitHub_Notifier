@@ -67,7 +67,7 @@ if (!(Test-Path $TokenPath)) {
 # Create the shortcut
 $params = @{
     Path             = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\GitHub Notifier.lnk"
-    IconResourcePath = $ScriptDestinationPath
+    IconResourcePath = $Png1DestinationPath
     TargetPath       = 'pwsh.exe'
     Arguments        = '-ExecutionPolicy Bypass -WindowStyle Hidden -NoProfile -File "{0}"' -f $ScriptDestinationPath
     WindowStyle      = 'Minimized'
